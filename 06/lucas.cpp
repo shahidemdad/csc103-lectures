@@ -16,6 +16,17 @@ int main()
 	 * any values P,Q.  See the notes in l2.pdf if you need help with
 	 * the idea, but try to write the code from scratch. */
 
+	int input=0;
+	int inputafter=0;
+	int inputbefore=0;
+
+	// input a values inside a while loop so this can runs till i want.
+		while(cin>>input) {
+					inputafter=input+inputbefore;
+					inputbefore=inputafter;
+		}
+		cout << "sum of the last two intergers is "<< inputafter << "\n";
+
 	return 0;
 }
 
