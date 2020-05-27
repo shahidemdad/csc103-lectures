@@ -16,7 +16,7 @@ int main()
 		V.push_back(s);
 	}
 	/* now print in reverse order: */
-	for (size_t i = V.size()-1; i != (size_t)-1; i--) {
+  for (size_t i = V.size()-1; i != (size_t)-1; i--) {
 		cout << V[i] << " ";
 	}
 	cout << "\n";
